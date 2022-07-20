@@ -1,7 +1,7 @@
 package main
 
 import (
-	stringfunctions "golesson/stringFunctions"
+	"golesson/restful"
 )
 
 //"fmt"
@@ -73,5 +73,6 @@ func main() {
 	// errorhandling.Demo2()
 	// fmt.Println(errorhandling.Guess2(102))
 	// stringfunctions.Demo1()
-	stringfunctions.Demo2()
+	// stringfunctions.Demo2()
+	restful.Demo2()
 }
