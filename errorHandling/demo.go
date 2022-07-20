@@ -5,11 +5,18 @@ import (
 	"os"
 )
 
+//TYPE ASSERTION
 func Demo1() {
-	f, error := os.Open("demo1.txt")
+	f, err := os.Open("demo12.txt")
 	//dosya varsa err nil olur yani error yoktur
-	if error != nil {
-		fmt.Println("Dosya bulunamadı")
+	if err != nil {
+		if pErr, k := err.(*os.PathError); k {
+			fmt.Println("Dosya bulunamadı ", pErr.Path)
+		} else {
+			fmt.Println("Error")
+			return
+		}
+
 	} else {
 		fmt.Println(f.Name())
 	}
