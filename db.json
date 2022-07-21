@@ -1,0 +1,50 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Laptop",
+      "categoryId": 1,
+      "unitPrice": 5000.99
+    },
+    {
+      "id": 2,
+      "productName": "Mouse",
+      "categoryId": 2,
+      "unitPrice": 50.99
+    },
+    {
+      "id": 3,
+      "productName": "keyboard",
+      "categoryId": 2,
+      "unitPrice": 125.99
+    },
+    {
+      "id": 4,
+      "productName": "TelePHONE",
+      "categoryId": 1,
+      "unitPrice": 8000
+    },
+    {
+      "id": 5,
+      "productName": "TelePHONE",
+      "categoryId": 1,
+      "unitPrice": 8000
+    },
+    {
+      "id": 6,
+      "productName": "TelePHONE",
+      "categoryId": 1,
+      "unitPrice": 8000
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "categoryName": "Computer"
+    },
+    {
+      "id": 2,
+      "categoryName": "Computer pieces"
+    }
+  ]
+}

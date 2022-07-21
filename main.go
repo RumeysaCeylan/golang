@@ -1,7 +1,8 @@
 package main
 
 import (
-	"golesson/restful"
+	"fmt"
+	project "golesson/Project"
 )
 
 //"fmt"
@@ -74,5 +75,14 @@ func main() {
 	// fmt.Println(errorhandling.Guess2(102))
 	// stringfunctions.Demo1()
 	// stringfunctions.Demo2()
-	restful.Demo2()
+	// restful.Demo2()
+	// project.GetAllProducts()
+	// project.AddProduct()
+	// products, _ := project.GetAllProducts()
+
+	// for i := 0; i < len(products); i++ {
+	// 	fmt.Println(products[i].ProductName)
+	// }
+	products2, _ := project.AddProduct()
+	fmt.Println(products2.ProductName)
 }
